@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>♡ Here's Flowers For My Cuties ♡</h1>
+            <img src="images/page-4(1).png" class="page-1img" alt="Image">
+            <p>Shorry for being a bad ladka. But hope this flower makes my girl happy because Mr. Bunny here (Me Obviously) has got this flower for you with sooo much love</p>
+            <button id="myButton4">Still No Smile ? Okay Click Me !</button>
+        </div>
+    </div>
+
+    <script>
+
+        const button2 = document.getElementById('myButton4');
+        let hoverCountFour = 0;
+        button2.addEventListener('mouseenter', () => {
+            hoverCountFour++;
+            if (hoverCountFour === 1) {
+                button2.style.transform = 'rotate(360deg)';
+                button2.innerText = 'No Shararat This Time, Click Fast !!';
+                button2.addEventListener('click', () => {
+                    window.location.href = "page5.html"; // Change to the second page
+                });
+            }
+        });
+
+    </script>
+</body>
+
+</html>

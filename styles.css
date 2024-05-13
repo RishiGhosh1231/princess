@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e5dddd;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #7b3b3b;
+    color: #e4dcdc;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .page-1img{
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  p{
+    margin-bottom: 30px;
+  }
